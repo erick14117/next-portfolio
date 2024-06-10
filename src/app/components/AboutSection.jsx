@@ -11,7 +11,7 @@ About Me
         </h2>
         <p>
         I'm a Software Engineer who loves to learn new things everyday to always keep my
-        brain healthy. Future M.S.E in Software Engineer at Arizona State University in 2025.
+        brain healthy. Future M.S.E graduate in Software Engineer at Arizona State University in 2025.
         </p>
       </div>
     </section>
