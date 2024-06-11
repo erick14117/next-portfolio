@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <div className="flex flex-wrap justify-items-center">
             <p className="text-[#F05454]">&#123;Super</p>
-            <p className="text-[#DDDDDD]">nova&#125;</p>
+            <p className="text-[#FFFFFF]">Nova&#125;</p>
             {/*Only way to render the curly braces as a text is with the respective HTML character code*/}
           </div>
         </Link>
