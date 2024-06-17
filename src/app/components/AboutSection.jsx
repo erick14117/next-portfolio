@@ -62,8 +62,7 @@ const AboutSection = () => {
         </h2>
         <p className="text-center text-5xl">
           I'm a Software Developer who loves to learn new things everyday to
-          always keep my brain healthy. I also love outer space, hence the name
-          Supernova.
+          always keep my brain healthy. 
           <br></br>
           <br></br>
           Future M.S.E Software Engineer graduate at Arizona State University in
