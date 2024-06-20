@@ -24,7 +24,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#30475E] bg-opacity-90">
+    <nav className="fixed mx-auto border border-[#FFFFFF] top-0 left-0 right-0 z-10 bg-[#222831] bg-opacity-90">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto  px-4 py-2">
         <Link
           href={"/"}
@@ -40,14 +40,14 @@ const Navbar = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border round border-slate-200 hover:text-white text-slate-200 hover:border-white"
+              className="flex items-center px-3 py-2 border round border-white hover:text-[#5D8BF4] text-white hover:border-[#5D8BF4]"
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border round border-slate-200 hover:text-white text-slate-200 hover:border-white"
+              className="flex items-center px-3 py-2 border round border-white hover:text-[#5D8BF4] text-white hover:border-[#5D8BF4]"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>

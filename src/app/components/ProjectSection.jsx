@@ -21,13 +21,23 @@ const projectsData = [
       tag: ["All", "Web"],
       gitUrl: "/",
       previewUrl: "https://www.orion-homes.com/"
+    },
+    {
+      id: 3,
+      title: "Secret Project",
+      description: "Coming soon",
+      image: "/images/projects/3.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/"
     }
   ];
 
 const ProjectSection = () => {
   return (
+    <section id="projects">
     <>
-    <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12" >
+    <h2 className="text-center font-body text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#F05454] mt-20 mb-40 " >
         My Projects
     </h2>
     <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
@@ -43,6 +53,7 @@ const ProjectSection = () => {
         ))}
         </div>
         </>
+        </section>
   )
 }
 
