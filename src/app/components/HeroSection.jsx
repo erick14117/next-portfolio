@@ -6,7 +6,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-8">
+      <div className="grid grid-cols-1 sm:grid-cols-8 mb-48">
         <div className="col-span-8 place-self-center text-center sm:text-">
           <p className="text-white text-3xl sm:text-5xl lg:text-6xl font-body mt-24 mb-10">
             Hello, I'm a
@@ -39,7 +39,7 @@ const HeroSection = () => {
             <Link href='#contact' className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#ffffff] text-black hover:bg-transparent hover:text-white border border-[#ffffff] font-body mt-10">
               Contact me
             </Link>
-            <Link href='#about' className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent text-[#5D8BF4]  border border-[#5D8BF4] hover:bg-[#5D8BF4]  hover:text-white  font-body mt-3">
+            <Link href='#about' className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent text-[#F05454]  border border-[#F05454] hover:bg-[#F05454]  hover:text-white  font-body mt-3 mb-40">
               Know more
             </Link>
           </div>

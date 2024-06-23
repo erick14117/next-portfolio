@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import LinkedinIcon from "../../../public/images/linkedin.svg";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -14,12 +17,12 @@ const Footer = () => {
               className="text-[#5D8BF4] font-extrabold"
               href="https://www.linkedin.com/in/erickgodinez/"
             >
-              Erick
+              Erick Godinez
             </a>
           </div>
 
           <div className="flex">
-            
+          
           </div>
         </span>
         <p className="text-slate-400">2024, All rights reserved.</p>

@@ -56,6 +56,7 @@ const TAB_DATA = [
         <li>
           &#8226; M.S.E Software Engineering at Arizona State University (2025)
         </li>
+        <br></br>
         <li>
           &#8226; B.S. Computer Engineering at Technological Institute of Tepic
         </li>
@@ -84,13 +85,14 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white font-body" id="about">
-      <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mt-40">
+    <section className="text-white font-body " id="about">
+      <div className="bg-gradient-to-b from-white from-0% to-transparent to-25% p-px rounded-3xl">
+      <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 bg-[#222831] rounded-3xl ">
         <div className="mt-4 md:mt-0 text-center flex flex-col h-full">
-          <h2 className="text-center text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#F05454] mb-8">
+          <h2 className="text-center text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#F05454] mb-20">
             About Me
           </h2>
-          <p className="text-center text-3xl sm:text-4xl lg:text-5xl ">
+          <p className="text-justify text-3xl sm:text-4xl lg:text-5xl">
             I'm a Software Developer who loves to learn new things everyday to
             always keep my brain healthy.
             <br></br>
@@ -102,7 +104,7 @@ const AboutSection = () => {
             What I know
           </h3>
 
-          <div className="flex flex-row mt-8 text-center justify-center">
+          <div className="flex flex-row mt-8 text-justify justify-center">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -130,7 +132,10 @@ const AboutSection = () => {
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
+        </div>
       </div>
+      
+      
     </section>
   );
 };
