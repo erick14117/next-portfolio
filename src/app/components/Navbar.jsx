@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   {
@@ -35,6 +36,9 @@ const Navbar = () => {
             <p className="text-[#FFFFFF]">Nova&#125;</p>
             {/*Only way to render the curly braces as a text is with the respective HTML character code*/}
           </div>
+          <div>
+            <ThemeToggle />
+          </div>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -51,6 +55,7 @@ const Navbar = () => {
             >
               <XMarkIcon className="h-5 w-5" />
             </button>
+          
           )}
         </div>
 

@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <main className="flex  flex-col min-h-screen bg-[#222831]">
+    <main className="flex  flex-col min-h-screen bg-[#222831] dark:bg-[#EFEFEF]">
       <link rel="icon" href="/images/favicon.ico" />
       <title>SuperNova</title>
          <Navbar />
