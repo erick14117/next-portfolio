@@ -8,11 +8,13 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="grid grid-cols-6 gap-4 px-20">
+      <div className="sm:grid sm:grid-cols-2 sm:gap-6 sm:px-1
+  
+       lg:grid-cols-6 lg:gap-6 lg:px-20 ">
         <div className="flex flex-col items-center">
           <Image src="/images/html.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-lg md:text-md sm:text-sm
           dark:text-[#525252]"
           >
             HTML
@@ -22,7 +24,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/javascript.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             JavaScript
@@ -32,17 +34,17 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/css.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             CSS
           </p>
         </div>
         {/*----------------3rd item------------------------- */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <Image src="/images/typescript.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-lg md:text-md sm:text-sm
           dark:text-[#525252]"
           >
             TypeScript
@@ -51,7 +53,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/angular.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             Angular
@@ -60,7 +62,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/react.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             React
@@ -69,7 +71,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/ionic.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             Ionic
@@ -78,7 +80,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/drupal.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             Drupal
@@ -87,7 +89,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/php.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             PHP
@@ -96,7 +98,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/bootstrap.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             Bootstrap
@@ -105,7 +107,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/tailwind.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
            Tailwind
@@ -114,7 +116,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/wordpress.svg" width={80} height={80} />
           <p
-            className="font-semibold text-xl
+            className="font-semibold lg:text-xl md:text-sm sm:text-xs
           dark:text-[#525252]"
           >
             Wordpress
@@ -165,7 +167,8 @@ const AboutSection = () => {
         className="bg-gradient-to-b from-white from-0% to-transparent to-25% p-px rounded-3xl 
       dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% to-transparent to-25% dark:p-px dark:rounded-3xl"
       >
-        <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 bg-[#222831] rounded-3xl dark:bg-[#EFEFEF] dark:rounded-3xl">
+        <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 bg-[#222831] rounded-3xl 
+        dark:bg-[#EFEFEF] dark:rounded-3xl">
           <div className="mt-4 md:mt-0 text-center flex flex-col h-full">
             <h2 className="text-center text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#F05454] mb-20">
               About Me
@@ -182,7 +185,7 @@ const AboutSection = () => {
               What I know
             </h3>
 
-            <div className="flex flex-row mt-8 text-justify justify-center">
+            <div className="flex flex-row mt-8 text-justify justify-center ">
               <TabButton
                 selectTab={() => handleTabChange("skills")}
                 active={tab === "skills"}
@@ -206,7 +209,7 @@ const AboutSection = () => {
               </TabButton>
             </div>
 
-            <div className="mt-8 text-center text-2xl sm:text-5xl lg:text-3xl">
+            <div className="mt-8 text-center lg:text-lg md:text-md sm:text-sm">
               {TAB_DATA.find((t) => t.id === tab).content}
             </div>
           </div>

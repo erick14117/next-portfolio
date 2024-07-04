@@ -13,9 +13,10 @@ const Footer = () => {
             <p className="text-[#F05454] font-extrabold">&#123;Super</p>
             <p className="text-[#FFFFFF] font-extrabold mr-1 dark:text-[#525252]">Nova&#125;</p>
             {/*Only way to render the curly braces as a text is with the respective HTML character code*/}
+            {/* [#5D8BF4] */}
             <p className="mr-1 dark:text-[#525252]"> by</p>
             <a
-              className="text-[#5D8BF4] font-extrabold"
+              className="text-[#0BAEEA] font-extrabold" 
               href="https://www.linkedin.com/in/erickgodinez/"
             >
               Erick Godinez

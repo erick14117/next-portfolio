@@ -22,10 +22,17 @@ const ThemeToggle = () => {
     }
   }, [darkMode]);
   return (
-    <div className="w-8 h-8" onClick={() => setDarkMode(!darkMode)}>
-      <MoonIcon className="text-white" size={8} />
-      <div className="text-blue-500 transform transition-transform duration-300"></div>
-      <SunIcon className="text-yellow-500"
+    <div className="relative sm:w-9 sm:h-5 md:w-16 md:h-8 flex items-center cursor-pointer 
+    dark:bg-[#FBE9B4] bg-[#062E3F]
+    rounded-full p-1 " 
+    onClick={() => setDarkMode(!darkMode)}>
+      <SunIcon className="text-[#062E3F] dark:text-[#FFFFFF] z-10" size={18} />
+      <div className="absolute bg-[#0BAEEA]
+      dark:bg-[#F4C248] sm:w-4 sm:h-4 md:w-7 md:h-7 rounded-full shadow-md 
+      transform transition-transform duration-300"
+      style={darkMode ? {left: "4px"}:{right: "4px"}}
+      ></div>
+      <MoonIcon className="text-[#FFFFFF] dark:text-[#FBE9B4]  z-10" size={18}
       />
     </div>
   );
