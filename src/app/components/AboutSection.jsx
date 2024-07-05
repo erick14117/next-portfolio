@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <div className="sm:grid sm:grid-cols-2 sm:gap-6 sm:px-1
-  
-       lg:grid-cols-6 lg:gap-6 lg:px-20 ">
+  md:gap-4
+       lg:grid-cols-3 lg:gap-8 lg:px-10 ">
         <div className="flex flex-col items-center">
           <Image src="/images/html.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-lg md:text-md sm:text-sx
+            className="font-semibold 
+            lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             HTML
@@ -24,7 +25,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/javascript.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             JavaScript
@@ -34,7 +35,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/css.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             CSS
@@ -44,7 +45,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center ">
           <Image src="/images/typescript.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-lg md:text-md sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             TypeScript
@@ -53,7 +54,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/angular.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             Angular
@@ -62,7 +63,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/react.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             React
@@ -71,7 +72,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/ionic.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             Ionic
@@ -80,7 +81,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/drupal.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             Drupal
@@ -89,7 +90,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/php.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             PHP
@@ -98,7 +99,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/bootstrap.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             Bootstrap
@@ -107,7 +108,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/tailwind.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
            Tailwind
@@ -116,7 +117,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/wordpress.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-xl md:text-sm sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             Wordpress
@@ -131,12 +132,14 @@ const TAB_DATA = [
     content: (
       <ul>
         <li className="text-justify 
-        sm:text-md">
+        sm:text-md
+        lg:text-lg">
           &#8226; M.S.E Software Engineering at Arizona State University (2025).
         </li>
         <br></br>
         <li className="text-justify
-        sm:text-md">
+        sm:text-md
+         lg:text-lg">
           &#8226; B.S.E. Computer Systems Engineering at Technological Institute of Tepic.
         </li>
       </ul>
@@ -148,7 +151,9 @@ const TAB_DATA = [
     content: (
       <ul>
         <li className="text-center
-        sm:text-md">Google UX Design &#40;in progress&#41;</li>
+        sm:text-md
+         lg:text-lg
+         ">Google UX Design &#40;in progress&#41;</li>
       </ul>
     ),
   },
@@ -169,7 +174,7 @@ const AboutSection = () => {
     className="text-white font-body 
     dark:text-[#525252]" >
       <div
-        className="bg-gradient-to-b from-white from-0% to-transparent to-10% p-px rounded-3xl
+        className="bg-gradient-to-b from-[#FFFFFF] from-0% to-transparent to-10% p-px rounded-3xl
       dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% dark:to-transparent dark:to-10% dark:p-px dark:rounded-3xl"
       >
         <div className=" bg-[#222831] rounded-3xl gap-8 items-center   py-8 px-4 
@@ -186,12 +191,13 @@ const AboutSection = () => {
           ">
             <h2 className="text-center font-extrabold text-[#F05454] 
              sm:text-2xl sm:mb-10
-             lg:text-6xl  lg:mb-20">
+             lg:text-3xl  lg:mb-20">
               About me
             </h2>
             <p className="text-justify  
             sm:text-md 
-            lg:text-5xl">
+            md:text-lg
+            lg:text-xl">
               I'm a Software Developer who loves to learn new things everyday to
               always keep my brain healthy.
               <br></br>
@@ -201,7 +207,7 @@ const AboutSection = () => {
             </p>
             <h3 className=" font-extrabold  text-[#F05454]
              sm:text-xl sm:mb-10 sm:mt-14
-             lg:text-5xl  lg:mb-20">
+             lg:text-2xl  lg:mb-20">
               What I know
             </h3>
 

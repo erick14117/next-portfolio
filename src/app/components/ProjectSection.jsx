@@ -44,7 +44,7 @@ const ProjectSection = () => {
           <div>
             <h2 className="text-center font-body font-extrabold text-[#F05454]
              sm:text-2xl sm:mb-14 sm:mt-8
-             lg:text-6xl  lg:mb-20">
+             lg:text-3xl  lg:mb-20">
               My Projects
             </h2>
             <div className="grid xl:grid-cols-3 gap-8 md:gap-12
