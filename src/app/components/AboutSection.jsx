@@ -14,7 +14,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/html.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-lg md:text-md sm:text-sm
+            className="font-semibold lg:text-lg md:text-md sm:text-sx
           dark:text-[#525252]"
           >
             HTML
@@ -44,7 +44,7 @@ const TAB_DATA = [
         <div className="flex flex-col items-center ">
           <Image src="/images/typescript.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-lg md:text-md sm:text-sm
+            className="font-semibold lg:text-lg md:text-md sm:text-xs
           dark:text-[#525252]"
           >
             TypeScript
@@ -130,12 +130,14 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul>
-        <li>
-          &#8226; M.S.E Software Engineering at Arizona State University (2025)
+        <li className="text-justify 
+        sm:text-md">
+          &#8226; M.S.E Software Engineering at Arizona State University (2025).
         </li>
         <br></br>
-        <li>
-          &#8226; B.S. Computer Engineering at Technological Institute of Tepic
+        <li className="text-justify
+        sm:text-md">
+          &#8226; B.S.E. Computer Systems Engineering at Technological Institute of Tepic.
         </li>
       </ul>
     ),
@@ -144,8 +146,9 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="pl-2 justify-items-center text-center">
-        <li>Google UX Design &#40;in progress&#41;</li>
+      <ul>
+        <li className="text-center
+        sm:text-md">Google UX Design &#40;in progress&#41;</li>
       </ul>
     ),
   },
@@ -162,18 +165,33 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white font-body dark:text-[#525252]" id="about">
+    <section id="about" 
+    className="text-white font-body 
+    dark:text-[#525252]" >
       <div
-        className="bg-gradient-to-b from-white from-0% to-transparent to-25% p-px rounded-3xl 
-      dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% to-transparent to-25% dark:p-px dark:rounded-3xl"
+        className="bg-gradient-to-b from-white from-0% to-transparent to-10% p-px rounded-3xl
+      dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% dark:to-transparent dark:to-10% dark:p-px dark:rounded-3xl"
       >
-        <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 bg-[#222831] rounded-3xl 
-        dark:bg-[#EFEFEF] dark:rounded-3xl">
-          <div className="mt-4 md:mt-0 text-center flex flex-col h-full">
-            <h2 className="text-center text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#F05454] mb-20">
-              About Me
+        <div className=" bg-[#222831] rounded-3xl gap-8 items-center   py-8 px-4 
+        dark:bg-[#EFEFEF] dark:rounded-3xl 
+        sm:py-10
+        md:grid md:grid-cols-1
+        lg:gap-16 lg:px-16
+        ">
+
+          <div className="text-center flex flex-col h-full
+         
+         md:mt-0
+         lg:mt-4 
+          ">
+            <h2 className="text-center font-extrabold text-[#F05454] 
+             sm:text-2xl sm:mb-10
+             lg:text-6xl  lg:mb-20">
+              About me
             </h2>
-            <p className="text-justify text-3xl sm:text-4xl lg:text-5xl">
+            <p className="text-justify  
+            sm:text-md 
+            lg:text-5xl">
               I'm a Software Developer who loves to learn new things everyday to
               always keep my brain healthy.
               <br></br>
@@ -181,11 +199,13 @@ const AboutSection = () => {
               Future M.S.E Software Engineer graduate at Arizona State
               University in 2025.
             </p>
-            <h3 className=" text-center text-xl sm:text-3xl lg:text-4xl font-extrabold  text-[#F05454] mt-16 mb-8">
+            <h3 className=" font-extrabold  text-[#F05454]
+             sm:text-xl sm:mb-10 sm:mt-14
+             lg:text-5xl  lg:mb-20">
               What I know
             </h3>
 
-            <div className="flex flex-row mt-8 text-justify justify-center ">
+            <div className="flex flex-row  text-justify">
               <TabButton
                 selectTab={() => handleTabChange("skills")}
                 active={tab === "skills"}
@@ -209,7 +229,7 @@ const AboutSection = () => {
               </TabButton>
             </div>
 
-            <div className="mt-8 text-center lg:text-lg md:text-md sm:text-sm">
+            <div className="mt-8 sm:mb-20 text-center lg:text-lg md:text-md sm:text-sm">
               {TAB_DATA.find((t) => t.id === tab).content}
             </div>
           </div>
