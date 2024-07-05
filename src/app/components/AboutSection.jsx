@@ -205,7 +205,8 @@ const AboutSection = () => {
               What I know
             </h3>
 
-            <div className="flex flex-row  text-justify">
+            <div className="flex flex-row  text-justify 
+            md:justify-center">
               <TabButton
                 selectTab={() => handleTabChange("skills")}
                 active={tab === "skills"}
