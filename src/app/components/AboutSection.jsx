@@ -10,12 +10,14 @@ const TAB_DATA = [
     content: (
       <div className="sm:grid sm:grid-cols-2 sm:gap-6 sm:px-1
   md:gap-4
-       lg:grid-cols-3 lg:gap-8 lg:px-10 ">
+       lg:grid-cols-3 lg:gap-8 lg:px-10 
+       2xl:grid-cols-4 2xl:gap-6 2xl:px-16">
         <div className="flex flex-col items-center">
           <Image src="/images/html.svg" width={80} height={80} />
           <p
             className="font-semibold 
             lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             HTML
@@ -25,7 +27,8 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/javascript.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
+            className="font-semibold lg:text-md md:text-md sm:text-xs 
+            2xl:text-lg
           dark:text-[#525252]"
           >
             JavaScript
@@ -36,6 +39,7 @@ const TAB_DATA = [
           <Image src="/images/css.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             CSS
@@ -46,6 +50,7 @@ const TAB_DATA = [
           <Image src="/images/typescript.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             TypeScript
@@ -55,6 +60,7 @@ const TAB_DATA = [
           <Image src="/images/angular.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             Angular
@@ -64,6 +70,7 @@ const TAB_DATA = [
           <Image src="/images/react.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             React
@@ -73,6 +80,7 @@ const TAB_DATA = [
           <Image src="/images/ionic.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             Ionic
@@ -82,6 +90,7 @@ const TAB_DATA = [
           <Image src="/images/drupal.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             Drupal
@@ -91,6 +100,7 @@ const TAB_DATA = [
           <Image src="/images/php.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             PHP
@@ -100,6 +110,7 @@ const TAB_DATA = [
           <Image src="/images/bootstrap.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             Bootstrap
@@ -109,6 +120,7 @@ const TAB_DATA = [
           <Image src="/images/tailwind.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
            Tailwind
@@ -118,6 +130,7 @@ const TAB_DATA = [
           <Image src="/images/wordpress.svg" width={80} height={80} />
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
+             2xl:text-lg
           dark:text-[#525252]"
           >
             Wordpress
@@ -191,13 +204,15 @@ const AboutSection = () => {
           ">
             <h2 className="text-center font-extrabold text-[#F05454] 
              sm:text-2xl sm:mb-10
-             lg:text-3xl  lg:mb-20">
+             lg:text-3xl  lg:mb-20
+             2xl:text-4xl">
               About me
             </h2>
             <p className="text-justify  
             sm:text-md 
             md:text-lg
-            lg:text-xl">
+            lg:text-xl
+            ">
               I'm a Software Developer who loves to learn new things everyday to
               always keep my brain healthy.
               <br></br>
@@ -207,7 +222,8 @@ const AboutSection = () => {
             </p>
             <h3 className=" font-extrabold  text-[#F05454]
              sm:text-xl sm:mb-10 sm:mt-14
-             lg:text-2xl  lg:mb-20">
+             lg:text-2xl  lg:mb-20
+             2xl:text-3xl">
               What I know
             </h3>
 
@@ -236,7 +252,9 @@ const AboutSection = () => {
               </TabButton>
             </div>
 
-            <div className="mt-8 sm:mb-20 text-center lg:text-lg md:text-md sm:text-sm">
+            <div className="mt-8 sm:mb-20 text-center  sm:text-sm 
+            md:text-md 
+            lg:text-lg ">
               {TAB_DATA.find((t) => t.id === tab).content}
             </div>
           </div>

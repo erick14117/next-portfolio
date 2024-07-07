@@ -38,16 +38,24 @@ const ProjectSection = () => {
       className="text-[#FFFFFF] font-body
       dark:text-[#525252]" >
       <div className="bg-gradient-to-b from-white from-0% to-transparent to-10% p-px rounded-3xl
-      dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% dark:to-transparent dark:to-10% dark:p-px dark:rounded-3xl">
+      dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% dark:to-transparent dark:to-10% dark:p-px dark:rounded-3xl
+     
+      
+    ">
+
         <div className="items-center gap-8  py-8 px-4  bg-[#222831] rounded-3xl 
         dark:bg-[#EFEFEF] dark:rounded-3xl">
           <div>
             <h2 className="text-center font-body font-extrabold text-[#F05454]
              sm:text-2xl sm:mb-14 sm:mt-8
-             lg:text-3xl  lg:mb-20">
+             lg:text-3xl  lg:mb-20
+             2xl:text-4xl">
               My Projects
             </h2>
-            <div className="grid xl:grid-cols-3 gap-8 md:gap-12
+            <div className="grid gap-8 
+  md:gap-12
+            2xl:grid-cols-2  xl:px-10
+          
             dark: text-[#525252] text-center">
               {projectsData.map((project) => (
                 <ProjectCard

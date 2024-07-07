@@ -49,7 +49,7 @@ const Navbar = () => {
             <ThemeToggle />
           </div>
 
-          <div className="mobile-menu xl:hidden flex">
+          <div className="mobile-menu 2xl:hidden flex">
             {!navbarOpen ? (
               <button
                 onClick={() => setNavbarOpen(true)}
@@ -69,7 +69,7 @@ const Navbar = () => {
             )}
           </div>
 
-          <div className="menu hidden xl:block xl:w-auto" id="navbar">
+          <div className="menu hidden 2xl:block 2xl:w-auto" id="navbar">
             <ul className="flex p-4 xl:p-0 xl:flex-row xl:space-x-8 mt-0">
               {navLinks.map((link, index) => (
                 <li key={index}>

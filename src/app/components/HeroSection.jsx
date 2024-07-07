@@ -14,6 +14,7 @@ const HeroSection = () => {
           sm:text-2xl sm:mb-6
       
           lg:text-3xl lg:mt-24 lg:mb-10
+          2xl:text-4xl
           
           ">
             Hello, I'm a
@@ -22,7 +23,8 @@ const HeroSection = () => {
           dark:text-[#525252]
           sm:text-2xl 
 
-          lg:text-3xl lg:mb-4">
+          lg:text-3xl lg:mb-4
+          2xl:text-4xl">
             <TypeAnimation
               sequence={["WEB", 1000, "MOBILE", 1000, "SOFTWARE", 1000]}
               wrapper="span"
@@ -33,7 +35,8 @@ const HeroSection = () => {
             <br></br>
             <span className="text-[#F05454] font-body 
             sm:text-2xl 
-            lg:text-3xl  lg:mb-4">
+            lg:text-3xl  lg:mb-4
+            2xl:text-4xl">
               DEVELOPER{" "}
             </span>
             <br></br>
@@ -43,7 +46,8 @@ const HeroSection = () => {
            dark:text-[#525252] 
            sm:text-2xl sm:mb-20 sm:mt-6
 
-           lg:text-3xl lg:mb-28 lg:mt-14">
+           lg:text-3xl lg:mb-28 lg:mt-14
+           2xl:text-4xl">
             <TypeAnimation
               sequence={["I'm Erick, nice to meet you", 1000]}
               wrapper="span"

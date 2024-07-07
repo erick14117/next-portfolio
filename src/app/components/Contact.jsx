@@ -13,8 +13,9 @@ const Contact = () => {
         dark:bg-[#EFEFEF] dark:rounded-3xl">
           <div className="font-body">
             <h2 className="text-center  font-extrabold text-[#F05454]
-            sm:text-2xl sm:mb-10
-             lg:text-3xl  lg:mb-20">
+            sm:text-2xl sm:mb-10 
+             lg:text-3xl  lg:mb-20
+             2xl:text-4xl">
               Contact
             </h2>
             <h3 className="font-bold text-[#FFFFFF]  my-2 mb-4
@@ -26,7 +27,8 @@ const Contact = () => {
             dark:text-[#525252]
              sm:text-md sm:mb-10
              md:text-lg
-            lg:text-xl">
+            lg:text-xl
+            ">
               I&apos;m always looking for new opportunities, you can message me
               on my LinkedIn inbox. If you have a question or just want to say
               hi, I&apos;ll be in touch.
@@ -39,7 +41,8 @@ const Contact = () => {
                 <div className="justify-center">
                 <div>
                   <p className="text-[#FFFFFF] 
-                  dark:text-[#525252]">
+                  dark:text-[#525252]
+                  2xl:text-xl">
                     Send me a message here:
                   </p>
                 </div>
