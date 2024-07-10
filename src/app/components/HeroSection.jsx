@@ -12,10 +12,9 @@ const HeroSection = () => {
           <p className="text-[#FFFFFF] font-body 
           dark:text-[#525252]
           sm:text-2xl sm:mb-6
-      
           lg:text-3xl lg:mt-24 lg:mb-10
           2xl:text-4xl
-          
+          3xl:text-5xl
           ">
             Hello, I'm a
           </p>
@@ -24,7 +23,8 @@ const HeroSection = () => {
           sm:text-2xl 
 
           lg:text-3xl lg:mb-4
-          2xl:text-4xl">
+          2xl:text-4xl
+          3xl:text-5xl">
             <TypeAnimation
               sequence={["WEB", 1000, "MOBILE", 1000, "SOFTWARE", 1000]}
               wrapper="span"
@@ -36,7 +36,8 @@ const HeroSection = () => {
             <span className="text-[#F05454] font-body 
             sm:text-2xl 
             lg:text-3xl  lg:mb-4
-            2xl:text-4xl">
+            2xl:text-4xl
+            3xl:text-5xl">
               DEVELOPER{" "}
             </span>
             <br></br>
@@ -47,7 +48,8 @@ const HeroSection = () => {
            sm:text-2xl sm:mb-20 sm:mt-6
 
            lg:text-3xl lg:mb-28 lg:mt-14
-           2xl:text-4xl">
+           2xl:text-4xl
+           3xl:text-5xl">
             <TypeAnimation
               sequence={["I'm Erick, nice to meet you", 1000]}
               wrapper="span"
@@ -65,13 +67,15 @@ const HeroSection = () => {
            
             md:text-md
             lg:mt-10  lg:w-full lg:text-lg
+            3xl:text-xl
             ">
               Contact me
             </Link>
             <Link href='#about' className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent text-[#F05454]  border border-[#F05454] hover:bg-[#F05454]  hover:text-[#222831] font-body mt-3 mb-40
             dark:hover:text-[#EFEFEF]
             md:text-md
-            lg:text-lg">
+            lg:text-lg
+            3xl:text-xl">
               Know more
             </Link>
           </div>

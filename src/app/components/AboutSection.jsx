@@ -8,16 +8,21 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="sm:grid sm:grid-cols-2 sm:gap-6 sm:px-1
-  md:gap-4
-       lg:grid-cols-3 lg:gap-8 lg:px-10 
-       2xl:grid-cols-4 2xl:gap-6 2xl:px-16">
+      <div
+        className="
+        sm:grid sm:grid-cols-2 sm:gap-6 sm:px-1
+        md:gap-4
+        lg:grid-cols-3 lg:gap-8 lg:px-10 
+        2xl:grid-cols-4 2xl:gap-6 2xl:px-16"
+      >
         <div className="flex flex-col items-center">
           <Image src="/images/html.svg" width={80} height={80} />
           <p
-            className="font-semibold 
-            lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             HTML
@@ -27,7 +32,10 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/javascript.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs 
+            className="font-semibold l
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
             2xl:text-lg
           dark:text-[#525252]"
           >
@@ -38,8 +46,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/css.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             CSS
@@ -49,8 +60,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center ">
           <Image src="/images/typescript.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             TypeScript
@@ -59,8 +73,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/angular.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             Angular
@@ -79,8 +96,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/ionic.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             Ionic
@@ -89,8 +109,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/drupal.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             Drupal
@@ -99,8 +122,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/php.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             PHP
@@ -109,8 +135,11 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/bootstrap.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             Bootstrap
@@ -119,18 +148,24 @@ const TAB_DATA = [
         <div className="flex flex-col items-center">
           <Image src="/images/tailwind.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
-           Tailwind
+            Tailwind
           </p>
         </div>
         <div className="flex flex-col items-center">
           <Image src="/images/wordpress.svg" width={80} height={80} />
           <p
-            className="font-semibold lg:text-md md:text-md sm:text-xs
-             2xl:text-lg
+            className="font-semibold 
+            sm:text-sm
+            md:text-md 
+            lg:text-md  
+            2xl:text-lg
           dark:text-[#525252]"
           >
             Wordpress
@@ -143,18 +178,23 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul>
-        <li className="text-justify 
+      <ul className=" flex flex-col items-center">
+        <div>
+          <li
+            className="text-justify
         sm:text-md
-        lg:text-lg">
-          &#8226; M.S.E Software Engineering at Arizona State University (2025).
-        </li>
-        <br></br>
-        <li className="text-justify
-        sm:text-md
-         lg:text-lg">
-          &#8226; B.S.E. Computer Systems Engineering at Technological Institute of Tepic.
-        </li>
+        lg:text-lg
+        2xl:text-xl
+        3xl:text-2xl
+      
+        "
+          >
+            &#8226; M.S.E Software Engineering at Arizona State University
+            (2025).<br></br>
+            &#8226; B.S.E. Computer Systems Engineering at Technological
+            Institute of Tepic.
+          </li>
+        </div>
       </ul>
     ),
   },
@@ -163,10 +203,16 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul>
-        <li className="text-center
+        <li
+          className="text-center
         sm:text-md
          lg:text-lg
-         ">Google UX Design &#40;in progress&#41;</li>
+          2xl:text-xl
+          3xl:text-2xl
+         "
+        >
+          Google UX Design &#40;in progress&#41;
+        </li>
       </ul>
     ),
   },
@@ -183,52 +229,76 @@ const AboutSection = () => {
   };
 
   return (
-    <section id="about" 
-    className="text-white font-body 
-    dark:text-[#525252]" >
+    <section
+      id="about"
+      className="text-white font-body 
+    dark:text-[#525252]"
+    >
       <div
         className="bg-gradient-to-b from-[#FFFFFF] from-0% to-transparent to-10% p-px rounded-3xl
       dark:bg-gradient-to-b dark:from-[#525252] dark:from-0% dark:to-transparent dark:to-10% dark:p-px dark:rounded-3xl"
       >
-        <div className=" bg-[#222831] rounded-3xl gap-8 items-center   py-8 px-4 
+        <div
+          className=" bg-[#222831] rounded-3xl gap-8 items-center   py-8 px-4 
         dark:bg-[#EFEFEF] dark:rounded-3xl 
         sm:py-10
         md:grid md:grid-cols-1
         lg:gap-16 lg:px-16
-        ">
-
-          <div className="text-center flex flex-col h-full
+        "
+        >
+          <div
+            className="text-center flex flex-col h-full
          
          md:mt-0
          lg:mt-4 
-          ">
-            <h2 className="text-center font-extrabold text-[#F05454] 
+          "
+          >
+            <h2
+              className="text-center font-extrabold text-[#F05454] 
              sm:text-2xl sm:mb-10
              lg:text-3xl  lg:mb-20
-             2xl:text-4xl">
+             2xl:text-4xl
+             3xl:text-5xl
+             "
+            >
               About me
             </h2>
-            <p className="text-justify  
+            <div className="flex justify-center">
+              <div className="text-left">
+                <p
+                  className="
+          
             sm:text-md 
             md:text-lg
             lg:text-xl
-            ">
-              I'm a Software Developer who loves to learn new things everyday to
-              always keep my brain healthy.
-              <br></br>
-              <br></br>
-              Future M.S.E Software Engineer graduate at Arizona State
-              University in 2025.
-            </p>
-            <h3 className=" font-extrabold  text-[#F05454]
+            3xl:text-2xl
+            
+        
+            "
+                >
+                  I'm a Software Developer who loves to learn new things
+                  everyday to always keep my brain healthy and young.
+                  <br></br>
+                  <br></br>
+                  Also a future M.S.E Software Engineer graduate at Arizona
+                  State University in 2025.
+                </p>
+              </div>
+            </div>
+            <h3
+              className=" font-extrabold  text-[#F05454]
              sm:text-xl sm:mb-10 sm:mt-14
              lg:text-2xl  lg:mb-20
-             2xl:text-3xl">
+             2xl:text-3xl
+             3xl:text-4xl"
+            >
               What I know
             </h3>
 
-            <div className="flex flex-row  text-justify 
-            md:justify-center">
+            <div
+              className="flex flex-row  text-justify 
+            md:justify-center"
+            >
               <TabButton
                 selectTab={() => handleTabChange("skills")}
                 active={tab === "skills"}
@@ -252,9 +322,12 @@ const AboutSection = () => {
               </TabButton>
             </div>
 
-            <div className="mt-8 sm:mb-20 text-center  sm:text-sm 
+            <div
+              className="mt-8 sm:mb-20 text-center  sm:text-sm 
             md:text-md 
-            lg:text-lg ">
+            lg:text-lg 
+           "
+            >
               {TAB_DATA.find((t) => t.id === tab).content}
             </div>
           </div>

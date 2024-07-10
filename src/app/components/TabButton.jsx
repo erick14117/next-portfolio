@@ -10,7 +10,8 @@ const TabButton = ({ active, selectTab, children }) => {
       <p className={`mr-3 font-semibold  hover:text-[#F05454] hover:border-b hover:border-[#F05454] dark:text-[#525252]
         dark:hover:text-[#F05454] dark:hover:border-b dark:hover:border-[#F05454]  
         xl:text-lg
-        2xl:text-xl ${buttonClasses}`}>
+        2xl:text-xl
+        3xl:text-2xl ${buttonClasses}`}>
         {children}
       </p>
     </button>

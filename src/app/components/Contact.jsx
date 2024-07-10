@@ -15,12 +15,14 @@ const Contact = () => {
             <h2 className="text-center  font-extrabold text-[#F05454]
             sm:text-2xl sm:mb-10 
              lg:text-3xl  lg:mb-20
-             2xl:text-4xl">
+             2xl:text-4xl
+             3xl:text-5xl">
               Contact
             </h2>
             <h3 className="font-bold text-[#FFFFFF]  my-2 mb-4
             dark:text-[#525252]
-            md:text-xl">
+            md:text-xl
+            3xl:text-2xl">
               Hello there!
             </h3>
             <p className="text-[#FFFFFF]  text-justify 
@@ -28,6 +30,7 @@ const Contact = () => {
              sm:text-md sm:mb-10
              md:text-lg
             lg:text-xl
+            3xl:text-2xl
             ">
               I&apos;m always looking for new opportunities, you can message me
               on my LinkedIn inbox. If you have a question or just want to say
