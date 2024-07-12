@@ -189,10 +189,10 @@ const TAB_DATA = [
       
         "
           >
-            &#8226; M.S.E Software Engineering at Arizona State University
-            (2025).<br></br>
             &#8226; B.S.E. Computer Systems Engineering at Technological
             Institute of Tepic.
+            .<br></br>
+            {/*  ;&#8226M.S.E Software Engineering at Arizona State University (2025)   */}
           </li>
         </div>
       </ul>
@@ -280,8 +280,7 @@ const AboutSection = () => {
                   everyday to always keep my brain healthy and young.
                   <br></br>
                   <br></br>
-                  Also a future M.S.E Software Engineer graduate at Arizona
-                  State University in 2025.
+                  In my spare time I often listen to music, play some guitar, videogames, and learn new technologies
                 </p>
               </div>
             </div>
