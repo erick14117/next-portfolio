@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: "Orion Homes LLC",
     description: "Orion Homes Website",
-    image: "/images/projects/2.webp",
+    image: ".../images/projects/2.webp",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://www.orion-homes.com/",
