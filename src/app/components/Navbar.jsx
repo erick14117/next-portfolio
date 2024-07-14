@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#EFEFEF] dark:bg-[#525252]">
-      <div className="flex container  flex-wrap items-center justify-between mx-auto 
+      <div className="flex container  flex-wrap items-center justify-between mx-auto
       sm:px-2 sm:py-1 
       md:px-4 md:py-2 
       lg:py-4">

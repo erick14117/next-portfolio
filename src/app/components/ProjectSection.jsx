@@ -20,18 +20,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://www.orion-homes.com/",
-  },
-  /* 
-    {
-    id: 3,
-    title: "Secret Project",
-    description: "Coming soon",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  }, 
-  */
+  }
 ];
 
 const ProjectSection = () => {
