@@ -16,7 +16,7 @@ const TAB_DATA = [
         2xl:grid-cols-4 2xl:gap-6 2xl:px-16"
       >
         <div className="flex flex-col items-center">
-          <Image src="/images/html.svg" width={80} height={80} />
+          <Image src="/images/html.svg" width={80} height={80} alt="HTML" />
           <p
             className="font-semibold
             sm:text-sm
@@ -30,7 +30,7 @@ const TAB_DATA = [
         </div>
         {/*----------------1st item------------------------- */}
         <div className="flex flex-col items-center">
-          <Image src="/images/javascript.svg" width={80} height={80} />
+          <Image src="/images/javascript.svg" width={80} height={80} alt="JavaScript"/>
           <p
             className="font-semibold l
             sm:text-sm
@@ -44,7 +44,7 @@ const TAB_DATA = [
         </div>
         {/*----------------2nd item------------------------- */}
         <div className="flex flex-col items-center">
-          <Image src="/images/css.svg" width={80} height={80} />
+          <Image src="/images/css.svg" width={80} height={80} alt="CSS"/>
           <p
             className="font-semibold 
             sm:text-sm
@@ -58,7 +58,7 @@ const TAB_DATA = [
         </div>
         {/*----------------3rd item------------------------- */}
         <div className="flex flex-col items-center ">
-          <Image src="/images/typescript.svg" width={80} height={80} />
+          <Image src="/images/typescript.svg" width={80} height={80} alt="TypeScript" />
           <p
             className="font-semibold 
             sm:text-sm
@@ -71,7 +71,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/angular.svg" width={80} height={80} />
+          <Image src="/images/angular.svg" width={80} height={80} alt="Angular" />
           <p
             className="font-semibold 
             sm:text-sm
@@ -84,7 +84,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/react.svg" width={80} height={80} />
+          <Image src="/images/react.svg" width={80} height={80} alt="React"/>
           <p
             className="font-semibold lg:text-md md:text-md sm:text-xs
              2xl:text-lg
@@ -94,7 +94,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/ionic.svg" width={80} height={80} />
+          <Image src="/images/ionic.svg" width={80} height={80} alt="Ionic" />
           <p
             className="font-semibold 
             sm:text-sm
@@ -107,7 +107,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/drupal.svg" width={80} height={80} />
+          <Image src="/images/drupal.svg" width={80} height={80} alt="Drupal" />
           <p
             className="font-semibold 
             sm:text-sm
@@ -120,7 +120,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/php.svg" width={80} height={80} />
+          <Image src="/images/php.svg" width={80} height={80} alt="PHP"/>
           <p
             className="font-semibold 
             sm:text-sm
@@ -133,7 +133,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/bootstrap.svg" width={80} height={80} />
+          <Image src="/images/bootstrap.svg" width={80} height={80} alt="Bootstrap"/>
           <p
             className="font-semibold 
             sm:text-sm
@@ -146,7 +146,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/tailwind.svg" width={80} height={80} />
+          <Image src="/images/tailwind.svg" width={80} height={80} alt="Tailwind" />
           <p
             className="font-semibold 
             sm:text-sm
@@ -159,7 +159,7 @@ const TAB_DATA = [
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/images/wordpress.svg" width={80} height={80} />
+          <Image src="/images/wordpress.svg" width={80} height={80} alt="Wordpress" />
           <p
             className="font-semibold 
             sm:text-sm
